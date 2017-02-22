@@ -27,7 +27,6 @@ node_modules
 # Environment variables and configuration
 .env
 .environment
-config.json
 
 # Build
 dist/

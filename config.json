@@ -1,0 +1,11 @@
+[
+  // Bot 1 (minimal configuration):
+  {
+    "nickname": "wsb-disco",
+    "server": "irc.freenode.org",
+    "discordToken": "MjgzODY2MDIzMTY0MTE2OTky.C47WDw._ixmZBi9_Bm8QUCU55D3svclFEg",
+    "channelMapping": {
+      "#irc": "#r-wsb"
+    }
+  }
+]
