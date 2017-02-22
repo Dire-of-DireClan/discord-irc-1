@@ -1,1 +1,1 @@
-web: node ./index.js --config ./config.json
+web: node index.js --config ./config.json
