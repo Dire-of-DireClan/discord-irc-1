@@ -1,1 +1,1 @@
-wsb-discord heroku app
+wsb-discord heroku app.
