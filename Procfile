@@ -1,0 +1,1 @@
+web: npm start -- --config ./config.json
