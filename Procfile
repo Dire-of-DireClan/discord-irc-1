@@ -1,1 +1,1 @@
-web: node ./app/index.js --config ./app/config.json
+worker: npm start -- --config ./app/config.json
