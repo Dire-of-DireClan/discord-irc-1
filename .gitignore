@@ -27,6 +27,3 @@ node_modules
 # Environment variables and configuration
 .env
 .environment
-
-# Build
-dist/
