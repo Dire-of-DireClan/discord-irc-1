@@ -4,3 +4,7 @@ after_success:
 node_js:
   - '6'
   - '7'
+deploy:
+  provider: heroku
+  api_key: $HEROKU_SECURE
+  app: nextjs-starter
