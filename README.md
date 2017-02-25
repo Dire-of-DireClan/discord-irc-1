@@ -1,4 +1,5 @@
 wsb-discord heroku app.
 
-#r-wsb
+# servers
+irc.freenode.net #r-wsb
 http://discord.gg/wallstreetbets
