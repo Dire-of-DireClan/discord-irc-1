@@ -6,4 +6,4 @@ after_success:
 deploy:
   provider: heroku
   api_key: $HEROKU_SECURE
-  app: nextjs-starter
+  app: wsb-discord
