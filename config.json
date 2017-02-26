@@ -2,7 +2,7 @@
   {
     "nickname": "wsb-disco",
     "server": "irc.freenode.org",
-    "discordToken": process.env.DISCORD_TOKEN,
+    "discordToken": "MjgzODY2MDIzMTY0MTE2OTky.C5Oo-g.V2aP0_-bsk9kEQHQ6rAbTkYYk4c",
     "channelMapping": {
       "#irc": "#r-wsb"
     }
