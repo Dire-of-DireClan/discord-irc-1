@@ -1,9 +1,6 @@
 language: node_js
-node_js:
-  - node
 after_success:
   - npm run report
-deploy:
-  provider: heroku
-  api_key: $HEROKU_SECURE
-  app: wsb-discord
+node_js:
+  - '6'
+  - '7'
