@@ -5,6 +5,15 @@
     "discordToken": "MjgzODY2MDIzMTY0MTE2OTky.C5Oo-g.V2aP0_-bsk9kEQHQ6rAbTkYYk4c",
     "channelMapping": {
       "#irc": "#r-wsb"
-    }
+    },
+    "ircOptions": { // Optional node-irc options
+      "floodProtection": false, // On by default
+      "floodProtectionDelay": 1000 // 500 by default
+    },
+    "ircNickColor": false, // Gives usernames a color in IRC for better readability (on by default)
+    // Makes the bot hide the username prefix for messages that start
+    // with one of these characters (commands):
+    "commandCharacters": ["!", "."],
+    "ircStatusNotices": true // Enables notifications in Discord when people join/part in the relevant IRC channel
   }
 ]
