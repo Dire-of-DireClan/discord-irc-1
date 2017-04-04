@@ -1,1 +1,1 @@
-worker: npm start -- --config ./config.json
+worker: npm run build && npm start -- --config ./config.json
