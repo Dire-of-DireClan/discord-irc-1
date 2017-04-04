@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 language: node_js
 after_success:
   - npm run report
 node_js:
   - '6'
   - '7'
+=======
+language: node_js
+node_js:
+  - node
+after_success:
+  - npm run report
+before_deploy:
+  - npm run build
+deploy:
+  provider: heroku
+  api_key: $HEROKU_SECURE
+  app: wsb-discord
+>>>>>>> parent of 573e314... add dist, remove testing :s
