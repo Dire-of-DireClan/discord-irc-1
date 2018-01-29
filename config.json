@@ -1,10 +1,10 @@
 [
   {
-    "nickname": "wsb-disco",
-    "server": "irc.freenode.org",
-    "discordToken": "MjgzODY2MDIzMTY0MTE2OTky.C5Oo-g.V2aP0_-bsk9kEQHQ6rAbTkYYk4c",
+    "nickname": "DDC",
+    "server": "irc.byteirc.org",
+    "discordToken": "NDA3NjA0MDExMzkxNTE2Njc0.DVD6Ww.mHaUOwJ_MAeXUJKgOG_WxNKMUe8",
     "channelMapping": {
-      "#irc": "#r-wsb"
+      "#dclan": "#dclanfb-chat"
     },
     "ircOptions": { // Optional node-irc options
       "floodProtection": false, // On by default
